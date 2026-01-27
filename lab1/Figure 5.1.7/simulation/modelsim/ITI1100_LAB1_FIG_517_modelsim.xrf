@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/ITI 1100/lab1/Figure 5.1.7/The_Or_Circuit.bdf
+source_file = 1, C:/ITI 1100/lab1/Figure 5.1.7/Simulations/Waveform.vwf
+source_file = 1, C:/ITI 1100/lab1/Figure 5.1.7/db/ITI1100_LAB1_FIG_517.cbx.xml
+design_name = The_Or_Circuit
+instance = comp, \P~output , P~output, The_Or_Circuit, 1
+instance = comp, \C~input , C~input, The_Or_Circuit, 1
+instance = comp, \A~input , A~input, The_Or_Circuit, 1
+instance = comp, \inst2~0 , inst2~0, The_Or_Circuit, 1
+instance = comp, \B~input , B~input, The_Or_Circuit, 1

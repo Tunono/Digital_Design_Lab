@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ITI 1100\lab1\Figure 5.1.7\simulation\qsim
+vThe_Or_Circuit
+Z1 I11FL]45faZDKZfNbXE2PA1
+Z2 Va:<jMHb@C6FfgL6:U@e:^0
+Z3 dC:\ITI 1100\lab1\Figure 5.1.7\simulation\qsim
+Z4 w1769222769
+Z5 8ITI1100_LAB1_FIG_517.vo
+Z6 FITI1100_LAB1_FIG_517.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@the_@or_@circuit
+!i10b 1
+Z10 !s100 SMgUIFUN?[4WXVH==VK`P2
+!s85 0
+Z11 !s108 1769222773.824000
+Z12 !s107 ITI1100_LAB1_FIG_517.vo|
+Z13 !s90 -work|work|ITI1100_LAB1_FIG_517.vo|
+!s101 -O0
+vThe_Or_Circuit_vlg_check_tst
+!i10b 1
+!s100 ?gSm:<_OVeBkHbd14B;Ko1
+Iff>9Z]C;z7CN02=OSUn1O0
+V^EL`G2;I264ZVBAACk5]G3
+R3
+Z14 w1769222768
+Z15 8ITI1100_LAB1_FIG_517.vt
+Z16 FITI1100_LAB1_FIG_517.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1769222774.000000
+Z18 !s107 ITI1100_LAB1_FIG_517.vt|
+Z19 !s90 -work|work|ITI1100_LAB1_FIG_517.vt|
+!s101 -O0
+R8
+n@the_@or_@circuit_vlg_check_tst
+vThe_Or_Circuit_vlg_sample_tst
+!i10b 1
+!s100 Q@N?aKH2]N7[[Cn^98U5f0
+IQTHWS]mCfHaGGh5nSQP4e0
+V9^oAH<Dd;AmOGn?c2ULR_1
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@the_@or_@circuit_vlg_sample_tst
+vThe_Or_Circuit_vlg_vec_tst
+!i10b 1
+!s100 D>^7jHAW=d2J4fXgV^EVe0
+IgEo_I1lf<:OK]z6]i[2ec0
+Vo>QZ@<F7=RbizdR2MS6Yk0
+R3
+R14
+R15
+R16
+L0 156
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@the_@or_@circuit_vlg_vec_tst
