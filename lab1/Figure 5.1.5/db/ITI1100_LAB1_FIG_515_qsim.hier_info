@@ -1,0 +1,8 @@
+|Exclusive_or_Circuit
+L <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN0
+A => inst.IN1
+A => inst1.IN1
+
+
