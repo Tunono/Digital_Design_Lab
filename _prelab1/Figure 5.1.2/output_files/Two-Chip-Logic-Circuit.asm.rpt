@@ -1,5 +1,5 @@
 Assembler report for Two-Chip-Logic-Circuit
-Fri Jan 23 11:06:42 2026
+Tue Jan 27 13:08:11 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/ITI 1100/prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.sof
+  5. Assembler Device Options: C:/ITI 1100/_prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Jan 23 11:06:42 2026 ;
+; Assembler Status      ; Successful - Tue Jan 27 13:08:11 2026 ;
 ; Revision Name         ; Two-Chip-Logic-Circuit                ;
 ; Top-level Entity Name ; Two-Chip-Logic-Circuit                ;
 ; Family                ; Cyclone IV E                          ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+--------------------------------------------------------------------------+
-; Assembler Generated Files                                                ;
-+--------------------------------------------------------------------------+
-; File Name                                                                ;
-+--------------------------------------------------------------------------+
-; C:/ITI 1100/prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.sof ;
-+--------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Assembler Generated Files                                                 ;
++---------------------------------------------------------------------------+
+; File Name                                                                 ;
++---------------------------------------------------------------------------+
+; C:/ITI 1100/_prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.sof ;
++---------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/ITI 1100/prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.sof ;
-+----------------+-----------------------------------------------------------------------------------+
-; Option         ; Setting                                                                           ;
-+----------------+-----------------------------------------------------------------------------------+
-; Device         ; EP4CE115F29C7                                                                     ;
-; JTAG usercode  ; 0x00562BE1                                                                        ;
-; Checksum       ; 0x00562BE1                                                                        ;
-+----------------+-----------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/ITI 1100/_prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.sof ;
++----------------+------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                            ;
++----------------+------------------------------------------------------------------------------------+
+; Device         ; EP4CE115F29C7                                                                      ;
+; JTAG usercode  ; 0x00562BE1                                                                         ;
+; Checksum       ; 0x00562BE1                                                                         ;
++----------------+------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Jan 23 11:06:36 2026
+    Info: Processing started: Tue Jan 27 13:07:53 2026
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Two-Chip-Logic-Circuit -c Two-Chip-Logic-Circuit
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4559 megabytes
-    Info: Processing ended: Fri Jan 23 11:06:42 2026
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Peak virtual memory: 4561 megabytes
+    Info: Processing ended: Tue Jan 27 13:08:11 2026
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:15
 
 

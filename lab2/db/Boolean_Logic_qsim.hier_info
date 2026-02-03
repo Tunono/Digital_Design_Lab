@@ -1,0 +1,7 @@
+|Boolean_Logic
+A => ~NO_FANOUT~
+B => ~NO_FANOUT~
+C => ~NO_FANOUT~
+D => ~NO_FANOUT~
+
+

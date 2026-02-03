@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/ITI 1100/_prelab1/Figure 5.1.2/Two-Chip-Logic-Circuit.bdf
+source_file = 1, C:/ITI 1100/_prelab1/Figure 5.1.2/Simulations/Waveform.vwf
+source_file = 1, C:/ITI 1100/_prelab1/Figure 5.1.2/db/Two-Chip-Logic-Circuit.cbx.xml
+design_name = \Two-Chip-Logic-Circuit 
+instance = comp, \U~output , U~output, \Two-Chip-Logic-Circuit , 1
+instance = comp, \D~input , D~input, \Two-Chip-Logic-Circuit , 1
+instance = comp, \C~input , C~input, \Two-Chip-Logic-Circuit , 1
+instance = comp, \B~input , B~input, \Two-Chip-Logic-Circuit , 1
+instance = comp, \A~input , A~input, \Two-Chip-Logic-Circuit , 1
+instance = comp, \inst2~0 , inst2~0, \Two-Chip-Logic-Circuit , 1
