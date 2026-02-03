@@ -1,0 +1,10 @@
+# do Three-Chip-Logic-Circuit.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module \Three-Chip-Logic-Circuit 
+# 
+# Top level modules:
+# 	\Three-Chip-Logic-Circuit 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: Three-Chip-Logic-Circuit.vt(29): near "-": syntax error, unexpected '-', expecting import or ';' or '#' or '('
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./Three-Chip-Logic-Circuit.do line 4

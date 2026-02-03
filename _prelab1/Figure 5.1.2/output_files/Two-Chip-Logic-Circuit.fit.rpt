@@ -1,5 +1,5 @@
 Fitter report for Two-Chip-Logic-Circuit
-Fri Jan 23 11:06:34 2026
+Tue Jan 27 13:07:50 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Fri Jan 23 11:06:34 2026           ;
+; Fitter Status                      ; Successful - Tue Jan 27 13:07:50 2026           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Two-Chip-Logic-Circuit                          ;
 ; Top-level Entity Name              ; Two-Chip-Logic-Circuit                          ;
@@ -200,7 +200,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/ITI 1100/prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.pin.
+The pin-out file can be found in C:/ITI 1100/_prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.pin.
 
 
 +---------------------------------------------------------------------+
@@ -1437,9 +1437,9 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:06
 Info (170189): Fitter placement preparation operations beginning
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
@@ -1450,23 +1450,23 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.25 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
-Info (144001): Generated suppressed messages file C:/ITI 1100/prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.fit.smsg
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:04
+Info (144001): Generated suppressed messages file C:/ITI 1100/_prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5073 megabytes
-    Info: Processing ended: Fri Jan 23 11:06:35 2026
-    Info: Elapsed time: 00:00:22
-    Info: Total CPU time (on all processors): 00:00:21
+    Info: Peak virtual memory: 5130 megabytes
+    Info: Processing ended: Tue Jan 27 13:07:52 2026
+    Info: Elapsed time: 00:00:54
+    Info: Total CPU time (on all processors): 00:00:46
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/ITI 1100/prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.fit.smsg.
+The suppressed messages can be found in C:/ITI 1100/_prelab1/Figure 5.1.2/output_files/Two-Chip-Logic-Circuit.fit.smsg.
 
 
