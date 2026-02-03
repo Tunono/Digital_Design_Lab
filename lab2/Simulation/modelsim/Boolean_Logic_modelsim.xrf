@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/ITI 1100/lab2/Boolean_Logic.bdf
+source_file = 1, C:/ITI 1100/lab2/Simulation/Waveform.vwf
+source_file = 1, C:/ITI 1100/lab2/db/Boolean_Logic.cbx.xml
+design_name = Boolean_Logic
+instance = comp, \Z~output , Z~output, Boolean_Logic, 1
+instance = comp, \B~input , B~input, Boolean_Logic, 1
+instance = comp, \A~input , A~input, Boolean_Logic, 1
+instance = comp, \C~input , C~input, Boolean_Logic, 1
+instance = comp, \D~input , D~input, Boolean_Logic, 1

@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Boolean_Logic
-Tue Feb 03 06:23:05 2026
+Tue Feb 03 06:37:41 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -17,39 +17,34 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   9. Slow 1200mV 85C Model Recovery Summary
  10. Slow 1200mV 85C Model Removal Summary
  11. Slow 1200mV 85C Model Minimum Pulse Width Summary
- 12. Propagation Delay
- 13. Minimum Propagation Delay
- 14. Slow 1200mV 85C Model Metastability Report
- 15. Slow 1200mV 0C Model Fmax Summary
- 16. Slow 1200mV 0C Model Setup Summary
- 17. Slow 1200mV 0C Model Hold Summary
- 18. Slow 1200mV 0C Model Recovery Summary
- 19. Slow 1200mV 0C Model Removal Summary
- 20. Slow 1200mV 0C Model Minimum Pulse Width Summary
- 21. Propagation Delay
- 22. Minimum Propagation Delay
- 23. Slow 1200mV 0C Model Metastability Report
- 24. Fast 1200mV 0C Model Setup Summary
- 25. Fast 1200mV 0C Model Hold Summary
- 26. Fast 1200mV 0C Model Recovery Summary
- 27. Fast 1200mV 0C Model Removal Summary
- 28. Fast 1200mV 0C Model Minimum Pulse Width Summary
- 29. Propagation Delay
- 30. Minimum Propagation Delay
- 31. Fast 1200mV 0C Model Metastability Report
- 32. Multicorner Timing Analysis Summary
- 33. Progagation Delay
- 34. Minimum Progagation Delay
- 35. Board Trace Model Assignments
- 36. Input Transition Times
- 37. Signal Integrity Metrics (Slow 1200mv 0c Model)
- 38. Signal Integrity Metrics (Slow 1200mv 85c Model)
- 39. Signal Integrity Metrics (Fast 1200mv 0c Model)
- 40. Clock Transfers
- 41. Report TCCS
- 42. Report RSKM
- 43. Unconstrained Paths
- 44. TimeQuest Timing Analyzer Messages
+ 12. Slow 1200mV 85C Model Datasheet Report
+ 13. Slow 1200mV 85C Model Metastability Report
+ 14. Slow 1200mV 0C Model Fmax Summary
+ 15. Slow 1200mV 0C Model Setup Summary
+ 16. Slow 1200mV 0C Model Hold Summary
+ 17. Slow 1200mV 0C Model Recovery Summary
+ 18. Slow 1200mV 0C Model Removal Summary
+ 19. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 20. Slow 1200mV 0C Model Datasheet Report
+ 21. Slow 1200mV 0C Model Metastability Report
+ 22. Fast 1200mV 0C Model Setup Summary
+ 23. Fast 1200mV 0C Model Hold Summary
+ 24. Fast 1200mV 0C Model Recovery Summary
+ 25. Fast 1200mV 0C Model Removal Summary
+ 26. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 27. Fast 1200mV 0C Model Datasheet Report
+ 28. Fast 1200mV 0C Model Metastability Report
+ 29. Multicorner Timing Analysis Summary
+ 30. Board Trace Model Assignments
+ 31. Input Transition Times
+ 32. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 33. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 34. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 35. Clock Transfers
+ 36. Report TCCS
+ 37. Report RSKM
+ 38. Unconstrained Paths
+ 39. TimeQuest Timing Analyzer Messages
 
 
 
@@ -144,28 +139,10 @@ No paths to report.
 No paths to report.
 
 
-+----------------------------------------------------------+
-; Propagation Delay                                        ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; A          ; Z           ; 7.473 ; 7.374 ; 7.809 ; 7.748 ;
-; B          ; Z           ; 7.527 ; 7.430 ; 7.870 ; 7.764 ;
-; C          ; Z           ;       ; 7.548 ; 7.978 ;       ;
-; D          ; Z           ;       ; 7.535 ; 7.977 ;       ;
-+------------+-------------+-------+-------+-------+-------+
-
-
-+----------------------------------------------------------+
-; Minimum Propagation Delay                                ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; A          ; Z           ; 7.222 ; 7.125 ; 7.551 ; 7.490 ;
-; B          ; Z           ; 7.272 ; 7.176 ; 7.608 ; 7.504 ;
-; C          ; Z           ;       ; 7.235 ; 7.677 ;       ;
-; D          ; Z           ;       ; 7.223 ; 7.677 ;       ;
-+------------+-------------+-------+-------+-------+-------+
+------------------------------------------
+; Slow 1200mV 85C Model Datasheet Report ;
+------------------------------------------
+Nothing to report.
 
 
 ----------------------------------------------
@@ -210,28 +187,10 @@ No paths to report.
 No paths to report.
 
 
-+----------------------------------------------------------+
-; Propagation Delay                                        ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; A          ; Z           ; 6.658 ; 6.552 ; 6.904 ; 6.832 ;
-; B          ; Z           ; 6.720 ; 6.615 ; 6.950 ; 6.840 ;
-; C          ; Z           ;       ; 6.714 ; 7.043 ;       ;
-; D          ; Z           ;       ; 6.698 ; 7.042 ;       ;
-+------------+-------------+-------+-------+-------+-------+
-
-
-+----------------------------------------------------------+
-; Minimum Propagation Delay                                ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; A          ; Z           ; 6.420 ; 6.319 ; 6.660 ; 6.590 ;
-; B          ; Z           ; 6.480 ; 6.378 ; 6.702 ; 6.595 ;
-; C          ; Z           ;       ; 6.418 ; 6.757 ;       ;
-; D          ; Z           ;       ; 6.404 ; 6.757 ;       ;
-+------------+-------------+-------+-------+-------+-------+
+-----------------------------------------
+; Slow 1200mV 0C Model Datasheet Report ;
+-----------------------------------------
+Nothing to report.
 
 
 ---------------------------------------------
@@ -270,28 +229,10 @@ No paths to report.
 No paths to report.
 
 
-+----------------------------------------------------------+
-; Propagation Delay                                        ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; A          ; Z           ; 3.952 ; 3.969 ; 4.497 ; 4.533 ;
-; B          ; Z           ; 3.956 ; 3.977 ; 4.531 ; 4.545 ;
-; C          ; Z           ;       ; 4.017 ; 4.563 ;       ;
-; D          ; Z           ;       ; 4.014 ; 4.570 ;       ;
-+------------+-------------+-------+-------+-------+-------+
-
-
-+----------------------------------------------------------+
-; Minimum Propagation Delay                                ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; A          ; Z           ; 3.826 ; 3.842 ; 4.364 ; 4.399 ;
-; B          ; Z           ; 3.829 ; 3.850 ; 4.395 ; 4.409 ;
-; C          ; Z           ;       ; 3.859 ; 4.407 ;       ;
-; D          ; Z           ;       ; 3.856 ; 4.414 ;       ;
-+------------+-------------+-------+-------+-------+-------+
+-----------------------------------------
+; Fast 1200mV 0C Model Datasheet Report ;
+-----------------------------------------
+Nothing to report.
 
 
 ---------------------------------------------
@@ -310,30 +251,6 @@ No synchronizer chains to report.
 +------------------+-------+------+----------+---------+---------------------+
 
 
-+----------------------------------------------------------+
-; Progagation Delay                                        ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; A          ; Z           ; 7.473 ; 7.374 ; 7.809 ; 7.748 ;
-; B          ; Z           ; 7.527 ; 7.430 ; 7.870 ; 7.764 ;
-; C          ; Z           ;       ; 7.548 ; 7.978 ;       ;
-; D          ; Z           ;       ; 7.535 ; 7.977 ;       ;
-+------------+-------------+-------+-------+-------+-------+
-
-
-+----------------------------------------------------------+
-; Minimum Progagation Delay                                ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; A          ; Z           ; 3.826 ; 3.842 ; 4.364 ; 4.399 ;
-; B          ; Z           ; 3.829 ; 3.850 ; 4.395 ; 4.409 ;
-; C          ; Z           ;       ; 3.859 ; 4.407 ;       ;
-; D          ; Z           ;       ; 3.856 ; 4.414 ;       ;
-+------------+-------------+-------+-------+-------+-------+
-
-
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                    ;
 +---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
@@ -350,8 +267,8 @@ No synchronizer chains to report.
 +-------------------------+--------------+-----------------+-----------------+
 ; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
 +-------------------------+--------------+-----------------+-----------------+
-; A                       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; B                       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; A                       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; C                       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; D                       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
@@ -418,10 +335,10 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
-; Unconstrained Input Ports       ; 4     ; 4    ;
-; Unconstrained Input Port Paths  ; 4     ; 4    ;
-; Unconstrained Output Ports      ; 1     ; 1    ;
-; Unconstrained Output Port Paths ; 4     ; 4    ;
+; Unconstrained Input Ports       ; 0     ; 0    ;
+; Unconstrained Input Port Paths  ; 0     ; 0    ;
+; Unconstrained Output Ports      ; 0     ; 0    ;
+; Unconstrained Output Port Paths ; 0     ; 0    ;
 +---------------------------------+-------+------+
 
 
@@ -431,7 +348,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Feb 03 06:23:01 2026
+    Info: Processing started: Tue Feb 03 06:37:35 2026
 Info: Command: quartus_sta Boolean_Logic -c Boolean_Logic
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -476,12 +393,12 @@ Info (332140): No Hold paths to report
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332140): No Minimum Pulse Width paths to report
-Info (332102): Design is not fully constrained for setup requirements
-Info (332102): Design is not fully constrained for hold requirements
+Info (332101): Design is fully constrained for setup requirements
+Info (332101): Design is fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4654 megabytes
-    Info: Processing ended: Tue Feb 03 06:23:05 2026
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4660 megabytes
+    Info: Processing ended: Tue Feb 03 06:37:41 2026
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:05
 
 
