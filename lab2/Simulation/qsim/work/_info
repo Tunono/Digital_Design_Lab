@@ -4,23 +4,23 @@ K3
 cModel Technology
 Z0 dC:\ITI 1100\lab2\simulation\qsim
 vBoolean_Logic
-Z1 I=c4PaZooz<9mCaS@0Z?i10
-Z2 VU61g0knMW<dh[Agc4k92@1
-Z3 dC:\ITI 1100\lab2\simulation\qsim
-Z4 w1770129530
-Z5 8Boolean_Logic.vo
-Z6 FBoolean_Logic.vo
+Z1 !s100 SLV[KXzc[iJTB522?3Sk93
+Z2 I=c4PaZooz<9mCaS@0Z?i10
+Z3 VU61g0knMW<dh[Agc4k92@1
+Z4 dC:\ITI 1100\lab2\simulation\qsim
+Z5 w1770231000
+Z6 8Boolean_Logic.vo
+Z7 FBoolean_Logic.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|Boolean_Logic.vo|
-Z9 o-work work -O0
-Z10 n@boolean_@logic
+Z9 !s90 -work|work|Boolean_Logic.vo|
+Z10 o-work work -O0
+Z11 n@boolean_@logic
 !i10b 1
-Z11 !s100 SLV[KXzc[iJTB522?3Sk93
 !s85 0
-Z12 !s108 1770129531.705000
+Z12 !s108 1770231003.997000
 Z13 !s107 Boolean_Logic.vo|
 !s101 -O0
 vBoolean_Logic_vlg_check_tst
@@ -28,32 +28,32 @@ vBoolean_Logic_vlg_check_tst
 Z14 !s100 ><ikE2P>1LfSg2ARGf<F<1
 Z15 IoCPmVIlKfB5gl]@bk72Rg3
 Z16 V2M?`0J1]?W^D906F4Tgd_3
-R3
-Z17 w1770129529
+R4
+Z17 w1770230999
 Z18 8Boolean_Logic.vt
 Z19 FBoolean_Logic.vt
 L0 63
-R7
+R8
 r1
 !s85 0
 31
-Z20 !s108 1770129532.200000
+Z20 !s108 1770231004.223000
 Z21 !s107 Boolean_Logic.vt|
 Z22 !s90 -work|work|Boolean_Logic.vt|
 !s101 -O0
-R9
+R10
 Z23 n@boolean_@logic_vlg_check_tst
 vBoolean_Logic_vlg_sample_tst
 !i10b 1
 Z24 !s100 AUBW2^IYihH@Ij1fU0j>[3
 Z25 IjZ:CzJ>PHk8jb>iMMncIQ1
 Z26 V^c@>kb9mKgg6Z=[[ZGbR60
-R3
+R4
 R17
 R18
 R19
 L0 29
-R7
+R8
 r1
 !s85 0
 31
@@ -61,19 +61,19 @@ R20
 R21
 R22
 !s101 -O0
-R9
+R10
 Z27 n@boolean_@logic_vlg_sample_tst
 vBoolean_Logic_vlg_vec_tst
 !i10b 1
 Z28 !s100 fQN7^MbR6kbH?hQ;R6HUQ1
 Z29 Ib@2<4MHLbG6mO>B:4<Y4C2
 Z30 VGGI@I3zMAn@H4;o8gcL@j0
-R3
+R4
 R17
 R18
 R19
 Z31 L0 158
-R7
+R8
 r1
 !s85 0
 31
@@ -81,5 +81,5 @@ R20
 R21
 R22
 !s101 -O0
-R9
+R10
 Z32 n@boolean_@logic_vlg_vec_tst

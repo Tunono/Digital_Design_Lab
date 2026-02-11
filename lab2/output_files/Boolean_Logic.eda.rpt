@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Boolean_Logic
-Tue Feb 03 06:38:50 2026
+Wed Feb 04 10:50:00 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Feb 03 06:38:50 2026 ;
+; EDA Netlist Writer Status ; Successful - Wed Feb 04 10:50:00 2026 ;
 ; Revision Name             ; Boolean_Logic                         ;
 ; Top-level Entity Name     ; Boolean_Logic                         ;
 ; Family                    ; Cyclone IV E                          ;
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Feb 03 06:38:49 2026
+    Info: Processing started: Wed Feb 04 10:50:00 2026
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog Boolean_Logic -c Boolean_Logic
 Info (204019): Generated file Boolean_Logic.vo in folder "C:/ITI 1100/lab2/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4537 megabytes
-    Info: Processing ended: Tue Feb 03 06:38:50 2026
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Wed Feb 04 10:50:00 2026
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 

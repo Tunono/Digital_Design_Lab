@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "02/03/2026 06:38:50"
+// DATE "02/04/2026 10:50:00"
 
 // 
 // Device: Altera EP4CE115F29C7 Package FBGA780
@@ -41,11 +41,11 @@ input 	C;
 input 	D;
 
 // Design Ports Information
-// Z	=>  Location: PIN_Y13,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// B	=>  Location: PIN_AG10,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// A	=>  Location: PIN_AG25,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// C	=>  Location: PIN_D1,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// D	=>  Location: PIN_E19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Z	=>  Location: PIN_G19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// B	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// A	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// C	=>  Location: PIN_AC27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// D	=>  Location: PIN_AD27,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 wire gnd;
@@ -66,7 +66,7 @@ wire \D~input_o ;
 wire \Z~output_o ;
 
 
-// Location: IOOBUF_X52_Y0_N9
+// Location: IOOBUF_X69_Y73_N16
 cycloneive_io_obuf \Z~output (
 	.i(vcc),
 	.oe(vcc),
@@ -79,7 +79,7 @@ defparam \Z~output .bus_hold = "false";
 defparam \Z~output .open_drain_output = "false";
 // synopsys translate_on
 
-// Location: IOIBUF_X31_Y0_N8
+// Location: IOIBUF_X115_Y14_N1
 cycloneive_io_ibuf \B~input (
 	.i(B),
 	.ibar(gnd),
@@ -89,7 +89,7 @@ defparam \B~input .bus_hold = "false";
 defparam \B~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X91_Y0_N22
+// Location: IOIBUF_X115_Y17_N1
 cycloneive_io_ibuf \A~input (
 	.i(A),
 	.ibar(gnd),
@@ -99,7 +99,7 @@ defparam \A~input .bus_hold = "false";
 defparam \A~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X0_Y68_N8
+// Location: IOIBUF_X115_Y15_N8
 cycloneive_io_ibuf \C~input (
 	.i(C),
 	.ibar(gnd),
@@ -109,7 +109,7 @@ defparam \C~input .bus_hold = "false";
 defparam \C~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X94_Y73_N8
+// Location: IOIBUF_X115_Y13_N8
 cycloneive_io_ibuf \D~input (
 	.i(D),
 	.ibar(gnd),
