@@ -1,0 +1,117 @@
+|Parallel_Adder
+SUM0 <= One_Bit_adder:inst7.SUM
+A0 => One_Bit_adder:inst7.A
+B0 => One_Bit_adder:inst7.B
+C_in => One_Bit_adder:inst7.C_IN
+SUM1 <= One_Bit_adder:inst.SUM
+A1 => One_Bit_adder:inst.A
+B1 => One_Bit_adder:inst.B
+SUM2 <= One_Bit_adder:inst8.SUM
+A2 => One_Bit_adder:inst8.A
+B2 => One_Bit_adder:inst8.B
+SUM3 <= One_Bit_adder:inst2.SUM
+A3 => One_Bit_adder:inst2.A
+B3 => One_Bit_adder:inst2.B
+SUM7 <= One_Bit_adder:inst11.SUM
+A7 => One_Bit_adder:inst11.A
+B7 => One_Bit_adder:inst11.B
+A6 => One_Bit_adder:inst10.A
+B6 => One_Bit_adder:inst10.B
+A5 => One_Bit_adder:inst4.A
+B5 => One_Bit_adder:inst4.B
+A4 => One_Bit_adder:inst9.A
+B4 => One_Bit_adder:inst9.B
+SUM6 <= One_Bit_adder:inst10.SUM
+SUM4 <= One_Bit_adder:inst9.SUM
+C_out <= One_Bit_adder:inst11.C_OUT
+SUM5 <= One_Bit_adder:inst4.SUM
+
+
+|Parallel_Adder|One_Bit_adder:inst7
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C_IN => inst1.IN1
+C_IN => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parallel_Adder|One_Bit_adder:inst
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C_IN => inst1.IN1
+C_IN => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parallel_Adder|One_Bit_adder:inst8
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C_IN => inst1.IN1
+C_IN => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parallel_Adder|One_Bit_adder:inst2
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C_IN => inst1.IN1
+C_IN => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parallel_Adder|One_Bit_adder:inst11
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C_IN => inst1.IN1
+C_IN => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parallel_Adder|One_Bit_adder:inst10
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C_IN => inst1.IN1
+C_IN => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parallel_Adder|One_Bit_adder:inst4
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C_IN => inst1.IN1
+C_IN => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parallel_Adder|One_Bit_adder:inst9
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C_IN => inst1.IN1
+C_IN => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
