@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ITI 1100\lab3\Pre_Lab_3\Parallel Adder\simulation\qsim
+vParallel_Adder
+Z1 IJjkA7m152noKQRoI3UzU33
+Z2 VQ1NYXiMVhj<b@5Gj]>6GB1
+Z3 dC:\ITI 1100\lab3\Pre_Lab_3\Parallel Adder\simulation\qsim
+Z4 w1771017976
+Z5 8Parallel_Adder.vo
+Z6 FParallel_Adder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Parallel_Adder.vo|
+Z9 o-work work -O0
+Z10 n@parallel_@adder
+!i10b 1
+Z11 !s100 eZE2mk4mFCg1D]?R<VS_b1
+!s85 0
+Z12 !s108 1771017977.505000
+Z13 !s107 Parallel_Adder.vo|
+!s101 -O0
+vParallel_Adder_vlg_check_tst
+!i10b 1
+!s100 cNhT0;j`K`4f?FzMzGN2d1
+IkA^[SaA6nkcP2MegHo6CP3
+Z14 VSZjkk3zhZGQJDPV=HgUl^1
+R3
+Z15 w1771017975
+Z16 8Parallel_Adder.vt
+Z17 FParallel_Adder.vt
+L0 89
+R7
+r1
+!s85 0
+31
+Z18 !s108 1771017977.689000
+Z19 !s107 Parallel_Adder.vt|
+Z20 !s90 -work|work|Parallel_Adder.vt|
+!s101 -O0
+R9
+Z21 n@parallel_@adder_vlg_check_tst
+vParallel_Adder_vlg_sample_tst
+!i10b 1
+Z22 !s100 N^S<G7H]OkiaDZ`??i<R62
+Z23 I=bQkSBNzz8HzQYUF^b;3e1
+Z24 VXS2i51`;YM5_Uo3DijE`J1
+R3
+R15
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z25 n@parallel_@adder_vlg_sample_tst
+vParallel_Adder_vlg_vec_tst
+!i10b 1
+Z26 !s100 ^8Cl[>Ccj3lDI:S8[1TeY3
+Z27 I@RmlQ34S2YAM9_OEEODYG0
+Z28 V0B>Fk_[H9;@MFliM2`67C0
+R3
+R15
+R16
+R17
+Z29 L0 400
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z30 n@parallel_@adder_vlg_vec_tst

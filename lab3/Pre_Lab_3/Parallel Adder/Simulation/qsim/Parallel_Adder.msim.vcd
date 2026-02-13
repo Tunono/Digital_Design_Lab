@@ -1,0 +1,327 @@
+$comment
+	File created using the following command:
+		vcd file Parallel_Adder.msim.vcd -direction
+$end
+$date
+	Fri Feb 13 13:26:18 2026
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Parallel_Adder_vlg_vec_tst $end
+$var reg 1 ! A0 $end
+$var reg 1 " A1 $end
+$var reg 1 # A2 $end
+$var reg 1 $ A3 $end
+$var reg 1 % A4 $end
+$var reg 1 & A5 $end
+$var reg 1 ' A6 $end
+$var reg 1 ( A7 $end
+$var reg 1 ) B0 $end
+$var reg 1 * B1 $end
+$var reg 1 + B2 $end
+$var reg 1 , B3 $end
+$var reg 1 - B4 $end
+$var reg 1 . B5 $end
+$var reg 1 / B6 $end
+$var reg 1 0 B7 $end
+$var reg 1 1 C_in $end
+$var wire 1 2 C_out $end
+$var wire 1 3 SUM0 $end
+$var wire 1 4 SUM1 $end
+$var wire 1 5 SUM2 $end
+$var wire 1 6 SUM3 $end
+$var wire 1 7 SUM4 $end
+$var wire 1 8 SUM5 $end
+$var wire 1 9 SUM6 $end
+$var wire 1 : SUM7 $end
+$var wire 1 ; sampler $end
+$scope module i1 $end
+$var wire 1 < gnd $end
+$var wire 1 = vcc $end
+$var wire 1 > unknown $end
+$var tri1 1 ? devclrn $end
+$var tri1 1 @ devpor $end
+$var tri1 1 A devoe $end
+$var wire 1 B SUM0~output_o $end
+$var wire 1 C SUM1~output_o $end
+$var wire 1 D SUM2~output_o $end
+$var wire 1 E SUM3~output_o $end
+$var wire 1 F SUM7~output_o $end
+$var wire 1 G SUM6~output_o $end
+$var wire 1 H SUM4~output_o $end
+$var wire 1 I C_out~output_o $end
+$var wire 1 J SUM5~output_o $end
+$var wire 1 K C_in~input_o $end
+$var wire 1 L B0~input_o $end
+$var wire 1 M A0~input_o $end
+$var wire 1 N inst7|inst3~0_combout $end
+$var wire 1 O inst7|inst4~0_combout $end
+$var wire 1 P A1~input_o $end
+$var wire 1 Q B1~input_o $end
+$var wire 1 R inst|inst3~combout $end
+$var wire 1 S inst|inst4~0_combout $end
+$var wire 1 T B2~input_o $end
+$var wire 1 U A2~input_o $end
+$var wire 1 V inst8|inst3~combout $end
+$var wire 1 W inst8|inst4~0_combout $end
+$var wire 1 X B3~input_o $end
+$var wire 1 Y A3~input_o $end
+$var wire 1 Z inst2|inst3~combout $end
+$var wire 1 [ A4~input_o $end
+$var wire 1 \ inst9|inst4~0_combout $end
+$var wire 1 ] B5~input_o $end
+$var wire 1 ^ A5~input_o $end
+$var wire 1 _ inst4|inst4~0_combout $end
+$var wire 1 ` B6~input_o $end
+$var wire 1 a inst10|inst4~1_combout $end
+$var wire 1 b A6~input_o $end
+$var wire 1 c inst10|inst4~0_combout $end
+$var wire 1 d B7~input_o $end
+$var wire 1 e A7~input_o $end
+$var wire 1 f inst11|inst3~combout $end
+$var wire 1 g inst10|inst3~0_combout $end
+$var wire 1 h inst2|inst4~0_combout $end
+$var wire 1 i B4~input_o $end
+$var wire 1 j inst9|inst3~combout $end
+$var wire 1 k inst11|inst4~0_combout $end
+$var wire 1 l inst9|inst4~1_combout $end
+$var wire 1 m inst4|inst3~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+1#
+1$
+1%
+1&
+1'
+0(
+1)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+x;
+0<
+1=
+x>
+1?
+1@
+1A
+xB
+xC
+xD
+xE
+xF
+xG
+xH
+xI
+xJ
+0K
+1L
+1M
+xN
+xO
+1P
+0Q
+xR
+xS
+0T
+1U
+xV
+xW
+0X
+1Y
+xZ
+1[
+x\
+0]
+1^
+x_
+0`
+xa
+1b
+xc
+0d
+0e
+xf
+xg
+xh
+0i
+xj
+xk
+xl
+xm
+$end
+#3440
+0a
+#3980
+0l
+#4108
+0N
+#4112
+1O
+#4143
+0k
+#4760
+1S
+#4792
+0R
+#5407
+1W
+#5444
+0V
+#6578
+1\
+#6587
+1h
+#6624
+0Z
+#7230
+1_
+#7236
+0m
+#7276
+0j
+#7846
+1c
+#7930
+0g
+#8511
+1f
+#10461
+0I
+02
+#11138
+0C
+04
+#12462
+0D
+05
+#13801
+0J
+08
+#14043
+0G
+09
+#14121
+0B
+03
+#14589
+1F
+1:
+#14751
+0E
+06
+#16792
+0H
+07
+#200000
+1(
+0;
+#200690
+1e
+#203923
+0f
+#203942
+1k
+#210129
+0F
+0:
+#210185
+1I
+12
+#400000
+0!
+0"
+0#
+0$
+0%
+0&
+0)
+1/
+1;
+#400640
+1`
+#400776
+0L
+#400796
+0^
+0[
+#400806
+0Y
+0U
+0P
+0M
+#403842
+1g
+#403843
+1a
+#403977
+0\
+#403980
+0h
+#403993
+1Z
+#404246
+0W
+#404254
+0O
+#404257
+1V
+#404272
+1N
+#404281
+0_
+#404431
+0S
+#404437
+1R
+#404941
+0c
+#404974
+0R
+#405026
+0g
+#405162
+0V
+#405171
+0N
+#405470
+0Z
+#600000
+10
+0/
+0;
+#600650
+1d
+#600746
+0`
+#604186
+0a
+#604201
+1g
+#610157
+1G
+19
+#800000
