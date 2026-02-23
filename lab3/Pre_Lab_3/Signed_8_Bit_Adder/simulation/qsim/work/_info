@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ITI 1100\lab3\Pre_Lab_3\Signed_8_Bit_Adder\simulation\qsim
+vSigned_Adder
+Z1 !s100 M97CI7Ojz:N3@S]azbT0U3
+Z2 IOKB8AGVEOUfnW7;gYRDh=3
+Z3 VH@A4Lzm1VhO7bXkTaAYJb2
+Z4 dC:\ITI 1100\lab3\Pre_Lab_3\Signed_8_Bit_Adder\simulation\qsim
+Z5 w1771825854
+Z6 8Signed_Adder.vo
+Z7 FSigned_Adder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Signed_Adder.vo|
+Z10 o-work work -O0
+Z11 n@signed_@adder
+!i10b 1
+!s85 0
+Z12 !s108 1771825856.004000
+Z13 !s107 Signed_Adder.vo|
+!s101 -O0
+vSigned_Adder_vlg_check_tst
+!i10b 1
+!s100 1PB<WU@R?5EVjD7`XP3nz3
+I:baP;YE_=nEfe[G_nKF=c0
+Z14 V_Bk<^EQhZ9B=dDUm9M>nN0
+R4
+Z15 w1771825853
+Z16 8Signed_Adder.vt
+Z17 FSigned_Adder.vt
+L0 89
+R8
+r1
+!s85 0
+31
+Z18 !s108 1771825856.199000
+Z19 !s107 Signed_Adder.vt|
+Z20 !s90 -work|work|Signed_Adder.vt|
+!s101 -O0
+R10
+Z21 n@signed_@adder_vlg_check_tst
+vSigned_Adder_vlg_sample_tst
+!i10b 1
+Z22 !s100 ^Vd@E<Kb1G0C4jid_Ahka0
+Z23 IgB2>KL^=4j8_<@C[SzVz:2
+Z24 VKd7hbMSXFI@g<C5<bIkg]2
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z25 n@signed_@adder_vlg_sample_tst
+vSigned_Adder_vlg_vec_tst
+!i10b 1
+!s100 =Z6m1Q?45CKCUSN_EgcDZ2
+I6@>X1=10B88EmKGCM80]22
+Z26 Vk?Z`EFQJ?IEEZYhci@l^W3
+R4
+R15
+R16
+R17
+Z27 L0 427
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z28 n@signed_@adder_vlg_vec_tst

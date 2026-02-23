@@ -29,4 +29,4 @@
 #    Time: 0 ps  Iteration: 0  Instance: /Parallel_Adder_vlg_vec_tst File: Parallel_Adder.vt
 # Simulation passed !
 # ** Note: $finish    : Parallel_Adder.vt(396)
-#    Time: 800 ns  Iteration: 0  Instance: /Parallel_Adder_vlg_vec_tst/tb_out
+#    Time: 1 us  Iteration: 0  Instance: /Parallel_Adder_vlg_vec_tst/tb_out

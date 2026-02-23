@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "02/13/2026 13:26:14"
+// Generated on "02/22/2026 21:48:36"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    Parallel_Adder
 // 
@@ -197,40 +197,10 @@ end
 
 
 
-// expected SUM0
+// expected SUM7
 initial
 begin
-	SUM0_expected = 1'bX;
-end 
-
-// expected SUM1
-initial
-begin
-	SUM1_expected = 1'bX;
-end 
-
-// expected SUM2
-initial
-begin
-	SUM2_expected = 1'bX;
-end 
-
-// expected SUM3
-initial
-begin
-	SUM3_expected = 1'bX;
-end 
-
-// expected SUM4
-initial
-begin
-	SUM4_expected = 1'bX;
-end 
-
-// expected SUM5
-initial
-begin
-	SUM5_expected = 1'bX;
+	SUM7_expected = 1'bX;
 end 
 
 // expected SUM6
@@ -239,10 +209,40 @@ begin
 	SUM6_expected = 1'bX;
 end 
 
-// expected SUM7
+// expected SUM5
 initial
 begin
-	SUM7_expected = 1'bX;
+	SUM5_expected = 1'bX;
+end 
+
+// expected SUM4
+initial
+begin
+	SUM4_expected = 1'bX;
+end 
+
+// expected SUM3
+initial
+begin
+	SUM3_expected = 1'bX;
+end 
+
+// expected SUM2
+initial
+begin
+	SUM2_expected = 1'bX;
+end 
+
+// expected SUM1
+initial
+begin
+	SUM1_expected = 1'bX;
+end 
+
+// expected SUM0
+initial
+begin
+	SUM0_expected = 1'bX;
 end 
 
 // expected C_out
@@ -388,7 +388,7 @@ initial
 
 begin 
 $timeformat(-12,3," ps",6);
-#800000;
+#1000000;
 if (nummismatches > 0)
 	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
 else
@@ -461,46 +461,11 @@ Parallel_Adder i1 (
 	.SUM7(SUM7)
 );
 
-// A0
+// A7
 initial
 begin
-	A0 = 1'b1;
-	A0 = #400000 1'b0;
-end 
-
-// A1
-initial
-begin
-	A1 = 1'b1;
-	A1 = #400000 1'b0;
-end 
-
-// A2
-initial
-begin
-	A2 = 1'b1;
-	A2 = #400000 1'b0;
-end 
-
-// A3
-initial
-begin
-	A3 = 1'b1;
-	A3 = #400000 1'b0;
-end 
-
-// A4
-initial
-begin
-	A4 = 1'b1;
-	A4 = #400000 1'b0;
-end 
-
-// A5
-initial
-begin
-	A5 = 1'b1;
-	A5 = #400000 1'b0;
+	A7 = 1'b0;
+	A7 = #250000 1'b1;
 end 
 
 // A6
@@ -509,42 +474,61 @@ begin
 	A6 = 1'b1;
 end 
 
-// A7
+// A5
 initial
 begin
-	A7 = 1'b0;
-	A7 = #200000 1'b1;
+	A5 = 1'b1;
+	A5 = #500000 1'b0;
 end 
 
-// B0
+// A4
 initial
 begin
-	B0 = 1'b1;
-	B0 = #400000 1'b0;
+	A4 = 1'b1;
+	A4 = #500000 1'b0;
 end 
 
-// B1
+// A3
 initial
 begin
-	B1 = 1'b0;
+	A3 = 1'b1;
+	A3 = #500000 1'b0;
 end 
 
-// B2
+// A2
 initial
 begin
-	B2 = 1'b0;
+	A2 = 1'b1;
+	A2 = #500000 1'b0;
 end 
 
-// B3
+// A1
 initial
 begin
-	B3 = 1'b0;
+	A1 = 1'b1;
+	A1 = #500000 1'b0;
 end 
 
-// B4
+// A0
 initial
 begin
-	B4 = 1'b0;
+	A0 = 1'b1;
+	A0 = #500000 1'b0;
+end 
+
+// B7
+initial
+begin
+	B7 = 1'b0;
+	B7 = #750000 1'b1;
+end 
+
+// B6
+initial
+begin
+	B6 = 1'b0;
+	B6 = #500000 1'b1;
+	B6 = #250000 1'b0;
 end 
 
 // B5
@@ -553,19 +537,35 @@ begin
 	B5 = 1'b0;
 end 
 
-// B6
+// B4
 initial
 begin
-	B6 = 1'b0;
-	B6 = #400000 1'b1;
-	B6 = #200000 1'b0;
+	B4 = 1'b0;
 end 
 
-// B7
+// B3
 initial
 begin
-	B7 = 1'b0;
-	B7 = #600000 1'b1;
+	B3 = 1'b0;
+end 
+
+// B2
+initial
+begin
+	B2 = 1'b0;
+end 
+
+// B1
+initial
+begin
+	B1 = 1'b0;
+end 
+
+// B0
+initial
+begin
+	B0 = 1'b1;
+	B0 = #500000 1'b0;
 end 
 
 // C_in
