@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Signed_Adder
-Sun Feb 22 21:50:54 2026
+Tue Feb 24 07:54:35 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Feb 22 21:50:54 2026 ;
+; EDA Netlist Writer Status ; Successful - Tue Feb 24 07:54:35 2026 ;
 ; Revision Name             ; Signed_Adder                          ;
 ; Top-level Entity Name     ; Signed_Adder                          ;
 ; Family                    ; Cyclone IV E                          ;
@@ -88,7 +88,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Feb 22 21:50:53 2026
+    Info: Processing started: Tue Feb 24 07:54:32 2026
 Info: Command: quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog Signed_Adder -c Signed_Adder
 Info (204019): Generated file Signed_Adder_7_1200mv_85c_slow.vo in folder "C:/ITI 1100/lab3/Pre_Lab_3/Signed_8_Bit_Adder/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file Signed_Adder_7_1200mv_0c_slow.vo in folder "C:/ITI 1100/lab3/Pre_Lab_3/Signed_8_Bit_Adder/simulation/modelsim/" for EDA simulation tool
@@ -100,8 +100,8 @@ Info (204019): Generated file Signed_Adder_min_1200mv_0c_v_fast.sdo in folder "C
 Info (204019): Generated file Signed_Adder_v.sdo in folder "C:/ITI 1100/lab3/Pre_Lab_3/Signed_8_Bit_Adder/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4537 megabytes
-    Info: Processing ended: Sun Feb 22 21:50:54 2026
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Processing ended: Tue Feb 24 07:54:35 2026
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

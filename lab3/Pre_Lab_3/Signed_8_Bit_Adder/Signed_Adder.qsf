@@ -48,7 +48,6 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
 set_global_assignment -name BDF_FILE Signed_Adder.bdf
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -57,4 +56,33 @@ set_global_assignment -name SIMULATION_MODE TIMING
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AB28 -to A0
+set_location_assignment PIN_AC28 -to A1
+set_location_assignment PIN_AC27 -to A2
+set_location_assignment PIN_AD27 -to A3
+set_location_assignment PIN_AB27 -to A4
+set_location_assignment PIN_AC26 -to A5
+set_location_assignment PIN_AD26 -to A6
+set_location_assignment PIN_AB26 -to A7
+set_location_assignment PIN_AC25 -to B0
+set_location_assignment PIN_AB25 -to B1
+set_location_assignment PIN_AC24 -to B2
+set_location_assignment PIN_AB24 -to B3
+set_location_assignment PIN_AB23 -to B4
+set_location_assignment PIN_AA24 -to B5
+set_location_assignment PIN_AA23 -to B6
+set_location_assignment PIN_AA22 -to B7
+set_location_assignment PIN_Y23 -to M
+set_location_assignment PIN_G19 -to SUM0
+set_location_assignment PIN_F19 -to SUM1
+set_location_assignment PIN_E19 -to SUM2
+set_location_assignment PIN_F21 -to SUM3
+set_location_assignment PIN_F18 -to SUM4
+set_location_assignment PIN_E18 -to SUM5
+set_location_assignment PIN_J19 -to SUM6
+set_location_assignment PIN_H19 -to SUM7
+set_location_assignment PIN_G17 -to V
+set_location_assignment PIN_J17 -to C_Out
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/ITI 1100/lab3/Pre_Lab_3/Signed_8_Bit_Adder/Simulations/Waveform.vwf"
