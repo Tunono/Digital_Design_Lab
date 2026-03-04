@@ -1,0 +1,30 @@
+|2Bit_Comparator
+G <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A0 => 1Bit_Comparator:inst.A
+B0 => 1Bit_Comparator:inst.B
+A1 => 1Bit_Comparator:inst5.A
+B1 => 1Bit_Comparator:inst5.B
+E <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+L <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|2Bit_Comparator|1Bit_Comparator:inst
+OUT0 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN0
+A => inst1.IN0
+A => inst3.IN1
+OUT1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+OUT2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|2Bit_Comparator|1Bit_Comparator:inst5
+OUT0 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN0
+A => inst1.IN0
+A => inst3.IN1
+OUT1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+OUT2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

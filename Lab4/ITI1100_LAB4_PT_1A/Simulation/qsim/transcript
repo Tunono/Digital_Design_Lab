@@ -1,0 +1,10 @@
+# do ITI1100_LAB4_PT_1A.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module \1Bit_Comparator 
+# 
+# Top level modules:
+# 	\1Bit_Comparator 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: ITI1100_LAB4_PT_1A.vt(29): near "1": syntax error, unexpected INTEGER NUMBER, expecting IDENTIFIER or automatic or TYPE_IDENTIFIER or static
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./ITI1100_LAB4_PT_1A.do line 4
