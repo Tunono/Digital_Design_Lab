@@ -1,5 +1,5 @@
 EDA Netlist Writer report for ITI1100_LAB4_PT_1A
-Tue Mar 03 16:45:42 2026
+Sun Mar 15 17:58:56 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Mar 03 16:45:42 2026 ;
+; EDA Netlist Writer Status ; Successful - Sun Mar 15 17:58:56 2026 ;
 ; Revision Name             ; ITI1100_LAB4_PT_1A                    ;
 ; Top-level Entity Name     ; 1Bit_Comparator                       ;
 ; Family                    ; Cyclone IV E                          ;
@@ -71,14 +71,14 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------------------------+
 ; Generated Files                                                                                     ;
 +-----------------------------------------------------------------------------------------------------+
-; C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_7_1200mv_85c_slow.vo     ;
-; C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_7_1200mv_0c_slow.vo      ;
-; C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_min_1200mv_0c_fast.vo    ;
-; C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A.vo                       ;
-; C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_7_1200mv_85c_v_slow.sdo  ;
-; C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_7_1200mv_0c_v_slow.sdo   ;
-; C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_min_1200mv_0c_v_fast.sdo ;
-; C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_v.sdo                    ;
+; C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_7_1200mv_85c_slow.vo     ;
+; C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_7_1200mv_0c_slow.vo      ;
+; C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_min_1200mv_0c_fast.vo    ;
+; C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A.vo                       ;
+; C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_7_1200mv_85c_v_slow.sdo  ;
+; C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_7_1200mv_0c_v_slow.sdo   ;
+; C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_min_1200mv_0c_v_fast.sdo ;
+; C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/ITI1100_LAB4_PT_1A_v.sdo                    ;
 +-----------------------------------------------------------------------------------------------------+
 
 
@@ -88,20 +88,20 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Mar 03 16:45:41 2026
-Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off ITI1100_LAB4_PT_1A -c ITI1100_LAB4_PT_1A
-Info (204019): Generated file ITI1100_LAB4_PT_1A_7_1200mv_85c_slow.vo in folder "C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file ITI1100_LAB4_PT_1A_7_1200mv_0c_slow.vo in folder "C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file ITI1100_LAB4_PT_1A_min_1200mv_0c_fast.vo in folder "C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file ITI1100_LAB4_PT_1A.vo in folder "C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file ITI1100_LAB4_PT_1A_7_1200mv_85c_v_slow.sdo in folder "C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file ITI1100_LAB4_PT_1A_7_1200mv_0c_v_slow.sdo in folder "C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file ITI1100_LAB4_PT_1A_min_1200mv_0c_v_fast.sdo in folder "C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file ITI1100_LAB4_PT_1A_v.sdo in folder "C:/ITI 1100/Lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
+    Info: Processing started: Sun Mar 15 17:58:55 2026
+Info: Command: quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog ITI1100_LAB4_PT_1A -c ITI1100_LAB4_PT_1A
+Info (204019): Generated file ITI1100_LAB4_PT_1A_7_1200mv_85c_slow.vo in folder "C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file ITI1100_LAB4_PT_1A_7_1200mv_0c_slow.vo in folder "C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file ITI1100_LAB4_PT_1A_min_1200mv_0c_fast.vo in folder "C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file ITI1100_LAB4_PT_1A.vo in folder "C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file ITI1100_LAB4_PT_1A_7_1200mv_85c_v_slow.sdo in folder "C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file ITI1100_LAB4_PT_1A_7_1200mv_0c_v_slow.sdo in folder "C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file ITI1100_LAB4_PT_1A_min_1200mv_0c_v_fast.sdo in folder "C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file ITI1100_LAB4_PT_1A_v.sdo in folder "C:/ITI 1100/lab4/ITI1100_LAB4_PT_1A/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4537 megabytes
-    Info: Processing ended: Tue Mar 03 16:45:42 2026
+    Info: Processing ended: Sun Mar 15 17:58:56 2026
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

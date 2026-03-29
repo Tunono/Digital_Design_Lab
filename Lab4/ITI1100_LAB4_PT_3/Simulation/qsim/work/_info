@@ -4,23 +4,23 @@ K3
 cModel Technology
 Z0 dC:\ITI 1100\lab4\ITI1100_LAB4_PT_3\simulation\qsim
 vMultiplexer
-Z1 !s100 AIbD4Fa27RSm6SAee9>DY0
-Z2 I@V7e4j77BAWeC`i[feBQ73
-Z3 VN?e_PnKMLVM^Z6YY]5_S;0
-Z4 dC:\ITI 1100\lab4\ITI1100_LAB4_PT_3\simulation\qsim
-Z5 w1773148094
-Z6 8ITI1100_LAB4_PT_3.vo
-Z7 FITI1100_LAB4_PT_3.vo
+Z1 ID[571g9D5I3:6NVKGeBLX1
+Z2 VN?e_PnKMLVM^Z6YY]5_S;0
+Z3 dC:\ITI 1100\lab4\ITI1100_LAB4_PT_3\simulation\qsim
+Z4 w1773623944
+Z5 8ITI1100_LAB4_PT_3.vo
+Z6 FITI1100_LAB4_PT_3.vo
 L0 31
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -work|work|ITI1100_LAB4_PT_3.vo|
-Z10 o-work work -O0
-Z11 n@multiplexer
+Z8 !s90 -work|work|ITI1100_LAB4_PT_3.vo|
+Z9 o-work work -O0
+Z10 n@multiplexer
 !i10b 1
+Z11 !s100 oJheY>OzS4080XEMUA6E`3
 !s85 0
-Z12 !s108 1773148095.292000
+Z12 !s108 1773623945.367000
 Z13 !s107 ITI1100_LAB4_PT_3.vo|
 !s101 -O0
 vMultiplexer_vlg_check_tst
@@ -28,58 +28,58 @@ vMultiplexer_vlg_check_tst
 Z14 !s100 H6Z^i4?Hg6WW:L9dTRUjE1
 Z15 I<IZ`>boVMC3mDOjFl7TNX2
 Z16 Vf]BC7<Jc2Jh<[?OaI?he]2
+R3
 R4
-Z17 w1773148093
-Z18 8ITI1100_LAB4_PT_3.vt
-Z19 FITI1100_LAB4_PT_3.vt
+Z17 8ITI1100_LAB4_PT_3.vt
+Z18 FITI1100_LAB4_PT_3.vt
 L0 67
-R8
+R7
 r1
 !s85 0
 31
-Z20 !s108 1773148095.464000
-Z21 !s107 ITI1100_LAB4_PT_3.vt|
-Z22 !s90 -work|work|ITI1100_LAB4_PT_3.vt|
+Z19 !s108 1773623945.452000
+Z20 !s107 ITI1100_LAB4_PT_3.vt|
+Z21 !s90 -work|work|ITI1100_LAB4_PT_3.vt|
 !s101 -O0
-R10
-Z23 n@multiplexer_vlg_check_tst
+R9
+Z22 n@multiplexer_vlg_check_tst
 vMultiplexer_vlg_sample_tst
 !i10b 1
-Z24 !s100 iIMAX]eAX3L@;81fNOO=10
-Z25 II3kMh;OB@;FS5^2cME;R`0
-Z26 VMiBEL=B;:G4OfR0@nhiK10
+Z23 !s100 iIMAX]eAX3L@;81fNOO=10
+Z24 II3kMh;OB@;FS5^2cME;R`0
+Z25 VMiBEL=B;:G4OfR0@nhiK10
+R3
 R4
 R17
 R18
-R19
 L0 29
-R8
+R7
 r1
 !s85 0
 31
+R19
 R20
 R21
-R22
 !s101 -O0
-R10
-Z27 n@multiplexer_vlg_sample_tst
+R9
+Z26 n@multiplexer_vlg_sample_tst
 vMultiplexer_vlg_vec_tst
 !i10b 1
-Z28 !s100 HkooCH:E]g2NnRRYX<Efa2
-Z29 IB@UGD>VPjcY9VE_[WR5U^2
-Z30 VTNj8W35WdH9I321FBQfeP2
+Z27 !s100 HkooCH:E]g2NnRRYX<Efa2
+Z28 IB@UGD>VPjcY9VE_[WR5U^2
+Z29 VTNj8W35WdH9I321FBQfeP2
+R3
 R4
 R17
 R18
-R19
-Z31 L0 162
-R8
+Z30 L0 162
+R7
 r1
 !s85 0
 31
+R19
 R20
 R21
-R22
 !s101 -O0
-R10
-Z32 n@multiplexer_vlg_vec_tst
+R9
+Z31 n@multiplexer_vlg_vec_tst

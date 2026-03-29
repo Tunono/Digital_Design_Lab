@@ -172,7 +172,7 @@ SIGNAL("Multiplexer_vlg_vec_tst|i1|devoe")
 	PARENT = "";
 }
 
-SIGNAL("Multiplexer_vlg_vec_tst|i1|S0~input_o")
+SIGNAL("Multiplexer_vlg_vec_tst|i1|D0~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -192,7 +192,7 @@ SIGNAL("Multiplexer_vlg_vec_tst|i1|Y~output_o")
 	PARENT = "";
 }
 
-SIGNAL("Multiplexer_vlg_vec_tst|i1|D2~input_o")
+SIGNAL("Multiplexer_vlg_vec_tst|i1|D1~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -212,27 +212,7 @@ SIGNAL("Multiplexer_vlg_vec_tst|i1|S1~input_o")
 	PARENT = "";
 }
 
-SIGNAL("Multiplexer_vlg_vec_tst|i1|D3~input_o")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("Multiplexer_vlg_vec_tst|i1|D0~input_o")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("Multiplexer_vlg_vec_tst|i1|D1~input_o")
+SIGNAL("Multiplexer_vlg_vec_tst|i1|S0~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -243,6 +223,26 @@ SIGNAL("Multiplexer_vlg_vec_tst|i1|D1~input_o")
 }
 
 SIGNAL("Multiplexer_vlg_vec_tst|i1|inst5~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplexer_vlg_vec_tst|i1|D3~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplexer_vlg_vec_tst|i1|D2~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -600,106 +600,6 @@ TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|devoe")
 	}
 }
 
-TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|S0~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 800.0;
-		LEVEL 1 FOR 800.0;
-		LEVEL 0 FOR 800.0;
-		LEVEL 1 FOR 800.0;
-	}
-}
-
-TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|Y~output_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|D2~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-	}
-}
-
-TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|S1~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1600.0;
-		LEVEL 1 FOR 1600.0;
-	}
-}
-
-TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|D3~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 400.0;
-	}
-}
-
 TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|D0~input_o")
 {
 	NODE
@@ -772,6 +672,44 @@ TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|D0~input_o")
 	}
 }
 
+TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|Y~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
+	}
+}
+
 TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|D1~input_o")
 {
 	NODE
@@ -812,6 +750,28 @@ TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|D1~input_o")
 	}
 }
 
+TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|S1~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1600.0;
+		LEVEL 1 FOR 1600.0;
+	}
+}
+
+TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|S0~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 800.0;
+		LEVEL 1 FOR 800.0;
+		LEVEL 0 FOR 800.0;
+		LEVEL 1 FOR 800.0;
+	}
+}
+
 TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|inst5~0_combout")
 {
 	NODE
@@ -843,6 +803,46 @@ TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|inst5~0_combout")
 		LEVEL 1 FOR 100.0;
 		LEVEL 0 FOR 800.0;
 		LEVEL 1 FOR 800.0;
+	}
+}
+
+TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|D3~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("Multiplexer_vlg_vec_tst|i1|D2~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
 	}
 }
 
@@ -1012,7 +1012,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Multiplexer_vlg_vec_tst|i1|S0~input_o";
+	CHANNEL = "Multiplexer_vlg_vec_tst|i1|D0~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 14;
@@ -1030,7 +1030,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Multiplexer_vlg_vec_tst|i1|D2~input_o";
+	CHANNEL = "Multiplexer_vlg_vec_tst|i1|D1~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 16;
@@ -1048,7 +1048,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Multiplexer_vlg_vec_tst|i1|D3~input_o";
+	CHANNEL = "Multiplexer_vlg_vec_tst|i1|S0~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 18;
@@ -1057,7 +1057,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Multiplexer_vlg_vec_tst|i1|D0~input_o";
+	CHANNEL = "Multiplexer_vlg_vec_tst|i1|inst5~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 19;
@@ -1066,7 +1066,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Multiplexer_vlg_vec_tst|i1|D1~input_o";
+	CHANNEL = "Multiplexer_vlg_vec_tst|i1|D3~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 20;
@@ -1075,7 +1075,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Multiplexer_vlg_vec_tst|i1|inst5~0_combout";
+	CHANNEL = "Multiplexer_vlg_vec_tst|i1|D2~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 21;

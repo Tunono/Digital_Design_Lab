@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "03/03/2026 16:28:26"
+// Generated on "03/15/2026 17:58:55"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    1Bit_Comparator
 // 
@@ -231,16 +231,16 @@ wire sampler;
 always
 begin
 	A = 1'b0;
-	A = #250000 1'b1;
-	#250000;
+	A = #500000 1'b1;
+	#500000;
 end 
 
 // B
 always
 begin
 	B = 1'b0;
-	B = #500000 1'b1;
-	#500000;
+	B = #250000 1'b1;
+	#250000;
 end 
 
 1Bit_Comparator_vlg_sample_tst tb_sample (

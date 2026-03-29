@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/ITI 1100/lab4/ITI1100_LAB4_PT_2/2TO4_Decoder.bdf
+source_file = 1, C:/ITI 1100/lab4/ITI1100_LAB4_PT_2/Simulation/Waveform.vwf
+source_file = 1, C:/ITI 1100/lab4/ITI1100_LAB4_PT_2/db/ITI1100_LAB4_PT_2.cbx.xml
+design_name = \2TO4_Decoder 
+instance = comp, \Y0~output , Y0~output, \2TO4_Decoder , 1
+instance = comp, \Y1~output , Y1~output, \2TO4_Decoder , 1
+instance = comp, \Y2~output , Y2~output, \2TO4_Decoder , 1
+instance = comp, \Y3~output , Y3~output, \2TO4_Decoder , 1
+instance = comp, \D1~input , D1~input, \2TO4_Decoder , 1
+instance = comp, \D0~input , D0~input, \2TO4_Decoder , 1
+instance = comp, \inst4~0 , inst4~0, \2TO4_Decoder , 1
+instance = comp, \inst4~1 , inst4~1, \2TO4_Decoder , 1
+instance = comp, \inst4~2 , inst4~2, \2TO4_Decoder , 1

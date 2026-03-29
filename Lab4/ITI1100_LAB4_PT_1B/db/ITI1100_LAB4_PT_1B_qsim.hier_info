@@ -1,11 +1,11 @@
 |2Bit_Comparator
-G <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 A0 => 1Bit_Comparator:inst.A
 B0 => 1Bit_Comparator:inst.B
 A1 => 1Bit_Comparator:inst5.A
 B1 => 1Bit_Comparator:inst5.B
-E <= inst7.DB_MAX_OUTPUT_PORT_TYPE
-L <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+L <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |2Bit_Comparator|1Bit_Comparator:inst
