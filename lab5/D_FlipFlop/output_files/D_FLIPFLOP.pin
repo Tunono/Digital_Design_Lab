@@ -126,8 +126,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AB1       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB2       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB3       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB4       :        :                   :         : 2         :                
-Q                            : AB5       : output : 2.5 V             :         : 2         : N              
-D                            : AB6       : input  : 2.5 V             :         : 2         : N              
+notQ                         : AB5       : output : 2.5 V             :         : 2         : N              
+Clock                        : AB6       : input  : 2.5 V             :         : 2         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB7       :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB8       :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB9       :        :                   :         : 3         :                
@@ -153,8 +153,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AB28      :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC1       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC2       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC3       :        :                   :         : 2         :                
-notQ                         : AC4       : output : 2.5 V             :         : 2         : N              
-Clock                        : AC5       : input  : 2.5 V             :         : 2         : N              
+Q                            : AC4       : output : 2.5 V             :         : 2         : N              
+D                            : AC5       : input  : 2.5 V             :         : 2         : N              
 GND                          : AC6       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC7       :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC8       :        :                   :         : 3         :                
