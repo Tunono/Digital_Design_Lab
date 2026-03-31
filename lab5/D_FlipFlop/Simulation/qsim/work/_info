@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ITI 1100\lab5\D_FlipFlop\simulation\qsim
+vD_FLIPFLOP
+Z1 Iz13ElC0CfSF6<W:EkAoge2
+Z2 V[N0e0ZE<8m3]E?c<gkehL2
+Z3 dC:\ITI 1100\lab5\D_FlipFlop\simulation\qsim
+Z4 w1774978972
+Z5 8D_FLIPFLOP.vo
+Z6 FD_FLIPFLOP.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|D_FLIPFLOP.vo|
+Z9 o-work work -O0
+Z10 n@d_@f@l@i@p@f@l@o@p
+!i10b 1
+Z11 !s100 c`C[E8_Nnk]N[g3XW[bQY1
+!s85 0
+Z12 !s108 1774978973.911000
+Z13 !s107 D_FLIPFLOP.vo|
+!s101 -O0
+vD_FLIPFLOP_vlg_check_tst
+!i10b 1
+Z14 !s100 7VSN>>R9iifQjVH:gROA13
+Z15 IHXKm:=MY4bcG=l<D9hTFH0
+Z16 V8=8ASYDfd:l0F^biaNXo10
+R3
+Z17 w1774978971
+Z18 8D_FLIPFLOP.vt
+Z19 FD_FLIPFLOP.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z20 !s108 1774978974.045000
+Z21 !s107 D_FLIPFLOP.vt|
+Z22 !s90 -work|work|D_FLIPFLOP.vt|
+!s101 -O0
+R9
+Z23 n@d_@f@l@i@p@f@l@o@p_vlg_check_tst
+vD_FLIPFLOP_vlg_sample_tst
+!i10b 1
+Z24 !s100 ]:=kXadUFNCQkcSQTzK7F1
+Z25 IXzdHI;;_Znm11XV<_nMS[3
+Z26 Vdjd]KmDOGo<FG4i9K<Yk40
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@d_@f@l@i@p@f@l@o@p_vlg_sample_tst
+vD_FLIPFLOP_vlg_vec_tst
+!i10b 1
+Z28 !s100 _mc7_HCk`TRb6NEChPGd42
+Z29 Ig0<1ID75@:S82T5dg[9Yz2
+Z30 V?bk=N[R>hjWZ;FAVE=gBI0
+R3
+R17
+R18
+R19
+Z31 L0 181
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@d_@f@l@i@p@f@l@o@p_vlg_vec_tst

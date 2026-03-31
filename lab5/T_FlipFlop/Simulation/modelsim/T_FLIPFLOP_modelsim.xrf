@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/ITI 1100/lab5/T_FlipFlop/T_FLIPFLOP.bdf
+source_file = 1, C:/ITI 1100/lab5/T_FlipFlop/Simulation/Waveform.vwf
+source_file = 1, C:/ITI 1100/lab5/T_FlipFlop/db/T_FLIPFLOP.cbx.xml
+design_name = T_FLIPFLOP
+instance = comp, \Q~output , Q~output, T_FLIPFLOP, 1
+instance = comp, \notQ~output , notQ~output, T_FLIPFLOP, 1
+instance = comp, \Clk~input , Clk~input, T_FLIPFLOP, 1
+instance = comp, \T~input , T~input, T_FLIPFLOP, 1
+instance = comp, \inst2~0 , inst2~0, T_FLIPFLOP, 1

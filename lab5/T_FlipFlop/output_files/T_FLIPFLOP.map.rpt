@@ -1,5 +1,5 @@
 Analysis & Synthesis report for T_FLIPFLOP
-Sat Mar 28 19:47:32 2026
+Tue Mar 31 09:42:53 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,10 +13,9 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Logic Cells Representing Combinational Loops
-  9. General Register Statistics
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Elapsed Time Per Partition
+ 10. Analysis & Synthesis Messages
 
 
 
@@ -42,15 +41,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Mar 28 19:47:32 2026           ;
+; Analysis & Synthesis Status        ; Successful - Tue Mar 31 09:42:53 2026           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; T_FLIPFLOP                                      ;
 ; Top-level Entity Name              ; T_FLIPFLOP                                      ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 2                                               ;
-;     Total combinational functions  ; 2                                               ;
-;     Dedicated logic registers      ; 0                                               ;
-; Total registers                    ; 0                                               ;
+; Total logic elements               ; 1                                               ;
+;     Total combinational functions  ; 1                                               ;
+;     Dedicated logic registers      ; 1                                               ;
+; Total registers                    ; 1                                               ;
 ; Total pins                         ; 4                                               ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
@@ -166,34 +165,34 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------------------+--------------------------------------------+---------+
 
 
-+------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary          ;
-+---------------------------------------------+--------+
-; Resource                                    ; Usage  ;
-+---------------------------------------------+--------+
-; Estimated Total logic elements              ; 2      ;
-;                                             ;        ;
-; Total combinational functions               ; 2      ;
-; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 0      ;
-;     -- 3 input functions                    ; 2      ;
-;     -- <=2 input functions                  ; 0      ;
-;                                             ;        ;
-; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 2      ;
-;     -- arithmetic mode                      ; 0      ;
-;                                             ;        ;
-; Total registers                             ; 0      ;
-;     -- Dedicated logic registers            ; 0      ;
-;     -- I/O registers                        ; 0      ;
-;                                             ;        ;
-; I/O pins                                    ; 4      ;
-; Embedded Multiplier 9-bit elements          ; 0      ;
-; Maximum fan-out node                        ; inst10 ;
-; Maximum fan-out                             ; 3      ;
-; Total fan-out                               ; 12     ;
-; Average fan-out                             ; 1.20   ;
-+---------------------------------------------+--------+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 1     ;
+;                                             ;       ;
+; Total combinational functions               ; 1     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 1     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 1     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 1     ;
+;     -- Dedicated logic registers            ; 1     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 4     ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; inst2 ;
+; Maximum fan-out                             ; 3     ;
+; Total fan-out                               ; 10    ;
+; Average fan-out                             ; 1.00  ;
++---------------------------------------------+-------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -201,20 +200,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |T_FLIPFLOP                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 4    ; 0            ; |T_FLIPFLOP         ; work         ;
+; |T_FLIPFLOP                ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 4    ; 0            ; |T_FLIPFLOP         ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops               ;
-+--------------------------------------------------------+---+
-; Logic Cell Name                                        ;   ;
-+--------------------------------------------------------+---+
-; inst2~0                                                ;   ;
-; Number of logic cells representing combinational loops ; 1 ;
-+--------------------------------------------------------+---+
-Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -222,7 +210,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 1     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -247,7 +235,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Mar 28 19:47:30 2026
+    Info: Processing started: Tue Mar 31 09:42:51 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off T_FLIPFLOP -c T_FLIPFLOP
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file t_flipflop.bdf
@@ -256,13 +244,13 @@ Info (12127): Elaborating entity "T_FLIPFLOP" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 6 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 5 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 2 output pins
-    Info (21061): Implemented 2 logic cells
+    Info (21061): Implemented 1 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4594 megabytes
-    Info: Processing ended: Sat Mar 28 19:47:32 2026
+    Info: Processing ended: Tue Mar 31 09:42:53 2026
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

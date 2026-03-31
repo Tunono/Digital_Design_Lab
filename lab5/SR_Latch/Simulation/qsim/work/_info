@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ITI 1100\lab5\SR_Latch\simulation\qsim
+vSR_LATCH
+Z1 I;93Zo<XhOhEZ1f0gafkN]3
+Z2 Vl]D^Nl:<Z82XLkkEhEXGI3
+Z3 dC:\ITI 1100\lab5\SR_Latch\simulation\qsim
+Z4 w1774981957
+Z5 8SR_LATCH.vo
+Z6 FSR_LATCH.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@s@r_@l@a@t@c@h
+!i10b 1
+Z10 !s100 n3IQmQaJ]Q9ei`>;d9?:=2
+!s85 0
+Z11 !s108 1774981958.679000
+Z12 !s107 SR_LATCH.vo|
+Z13 !s90 -work|work|SR_LATCH.vo|
+!s101 -O0
+vSR_LATCH_vlg_check_tst
+!i10b 1
+!s100 bkZNE`WM5[3zeE?kZL8Fz3
+I;QJ2JC2Tb1V]^cRoNlB[a0
+VGd@Q0P2J[nhi>[?2o:98d3
+R3
+Z14 w1774981956
+Z15 8SR_LATCH.vt
+Z16 FSR_LATCH.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1774981958.824000
+Z18 !s107 SR_LATCH.vt|
+Z19 !s90 -work|work|SR_LATCH.vt|
+!s101 -O0
+R8
+n@s@r_@l@a@t@c@h_vlg_check_tst
+vSR_LATCH_vlg_sample_tst
+!i10b 1
+!s100 0_0iOeZ9:ARMb3L5<090o1
+I];Mg:an60DiTHo6@NdX<i1
+V]]_WLD5T`QbNR56?:EkA`2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@s@r_@l@a@t@c@h_vlg_sample_tst
+vSR_LATCH_vlg_vec_tst
+!i10b 1
+!s100 PglQg]BgR3Q8on<eUjc=R3
+I0Q?WF:o70gXDl<^5[<RF=0
+V42BCHE[1^j=mJlWCV4VF01
+R3
+R14
+R15
+R16
+L0 181
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@s@r_@l@a@t@c@h_vlg_vec_tst

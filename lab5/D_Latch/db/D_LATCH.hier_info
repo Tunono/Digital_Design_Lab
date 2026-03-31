@@ -1,7 +1,9 @@
 |D_LATCH
 Q <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-D => inst2.IN0
-D => inst.IN0
+D => inst5.IN0
+D => inst.IN1
+En => inst4.IN1
+En => inst.IN0
 notQ <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
