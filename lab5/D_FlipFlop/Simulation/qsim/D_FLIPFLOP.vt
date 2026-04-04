@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "03/31/2026 10:42:51"
+// Generated on "04/03/2026 20:01:25"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    D_FLIPFLOP
 // 
@@ -199,11 +199,25 @@ D_FLIPFLOP i1 (
 );
 
 // Clock
-always
+initial
 begin
+	repeat(2)
+	begin
+		Clock = 1'b0;
+		Clock = #125000 1'b1;
+		# 125000;
+	end
 	Clock = 1'b0;
-	Clock = #125000 1'b1;
-	#125000;
+	Clock = #35000 1'b1;
+	# 25000;
+	repeat(8)
+	begin
+		Clock = 1'b0;
+		Clock = #25000 1'b1;
+		# 25000;
+	end
+	Clock = 1'b0;
+	Clock = #25000 1'b1;
 end 
 
 // D

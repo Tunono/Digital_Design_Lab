@@ -4,82 +4,82 @@ K3
 cModel Technology
 Z0 dC:\ITI 1100\lab5\T_FlipFlop\simulation\qsim
 vT_FLIPFLOP
-Z1 IZA_aH3>3CNU@Igj`b8Ifn1
-Z2 Vm=X0?EV]A2[[aQP[bAk4C2
-Z3 dC:\ITI 1100\lab5\T_FlipFlop\simulation\qsim
-Z4 w1774975658
-Z5 8T_FLIPFLOP.vo
-Z6 FT_FLIPFLOP.vo
+Z1 !s100 [R<6IV<GK8ObkE3X^8jKf2
+Z2 IZA_aH3>3CNU@Igj`b8Ifn1
+Z3 Vm=X0?EV]A2[[aQP[bAk4C2
+Z4 dC:\ITI 1100\lab5\T_FlipFlop\simulation\qsim
+Z5 w1775273455
+Z6 8T_FLIPFLOP.vo
+Z7 FT_FLIPFLOP.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|T_FLIPFLOP.vo|
-Z9 o-work work -O0
-Z10 n@t_@f@l@i@p@f@l@o@p
+Z9 !s90 -work|work|T_FLIPFLOP.vo|
+Z10 o-work work -O0
+Z11 n@t_@f@l@i@p@f@l@o@p
 !i10b 1
-Z11 !s100 [R<6IV<GK8ObkE3X^8jKf2
 !s85 0
-Z12 !s108 1774975659.003000
+Z12 !s108 1775273457.191000
 Z13 !s107 T_FLIPFLOP.vo|
 !s101 -O0
 vT_FLIPFLOP_vlg_check_tst
 !i10b 1
-!s100 ?fM_oliHmZ^1>V72dzRSH0
-I2Oi3Fzm=5Q]A_nLEY:9^>1
-Z14 V9JIZ=`053920PD5F^JOE93
-R3
-Z15 w1774975657
-Z16 8T_FLIPFLOP.vt
-Z17 FT_FLIPFLOP.vt
+Z14 !s100 PE3[JL8Q07i7S6^Y0@Nb<3
+Z15 I5`<[:m?ad8><SJnZ;QGgB0
+Z16 V9JIZ=`053920PD5F^JOE93
+R4
+Z17 w1775273454
+Z18 8T_FLIPFLOP.vt
+Z19 FT_FLIPFLOP.vt
 L0 59
-R7
+R8
 r1
 !s85 0
 31
-Z18 !s108 1774975659.141000
-Z19 !s107 T_FLIPFLOP.vt|
-Z20 !s90 -work|work|T_FLIPFLOP.vt|
+Z20 !s108 1775273457.388000
+Z21 !s107 T_FLIPFLOP.vt|
+Z22 !s90 -work|work|T_FLIPFLOP.vt|
 !s101 -O0
-R9
-Z21 n@t_@f@l@i@p@f@l@o@p_vlg_check_tst
+R10
+Z23 n@t_@f@l@i@p@f@l@o@p_vlg_check_tst
 vT_FLIPFLOP_vlg_sample_tst
 !i10b 1
-!s100 Sfm?R:Wi98>imR?a7iRmV1
-Ihb>E2WC3SM0;?jG6KWa1a1
-VLmRI6MKaMf[g=1^g9aT`]3
-R3
-R15
-R16
+Z24 !s100 Sfm?R:Wi98>imR?a7iRmV1
+Z25 Ihb>E2WC3SM0;?jG6KWa1a1
+Z26 VLmRI6MKaMf[g=1^g9aT`]3
+R4
 R17
+R18
+R19
 L0 29
-R7
+R8
 r1
 !s85 0
 31
-R18
-R19
 R20
+R21
+R22
 !s101 -O0
-R9
-Z22 n@t_@f@l@i@p@f@l@o@p_vlg_sample_tst
+R10
+Z27 n@t_@f@l@i@p@f@l@o@p_vlg_sample_tst
 vT_FLIPFLOP_vlg_vec_tst
 !i10b 1
-!s100 iP<UB<g0;EaMTH[089ZdV0
-I?bJ3T<fbDX04o1G?4Kg;M3
-Z23 VMC>nfj^mClAefU]4<a84b3
-R3
-R15
-R16
+!s100 kMf[4kNzdG0<ijULPo0aE2
+IzY5z<cGM=3]ReZeL@IMdl3
+Z28 VMC>nfj^mClAefU]4<a84b3
+R4
 R17
-L0 181
-R7
+R18
+R19
+Z29 L0 181
+R8
 r1
 !s85 0
 31
-R18
-R19
 R20
+R21
+R22
 !s101 -O0
-R9
-Z24 n@t_@f@l@i@p@f@l@o@p_vlg_vec_tst
+R10
+Z30 n@t_@f@l@i@p@f@l@o@p_vlg_vec_tst

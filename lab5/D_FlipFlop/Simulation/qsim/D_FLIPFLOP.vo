@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "03/31/2026 10:42:52"
+// DATE "04/03/2026 20:01:27"
 
 // 
 // Device: Altera EP4CE115F29C7 Package FBGA780
@@ -56,10 +56,6 @@ assign unknown = 1'bx;
 tri1 devclrn;
 tri1 devpor;
 tri1 devoe;
-// synopsys translate_off
-initial $sdf_annotate("D_FLIPFLOP_v.sdo");
-// synopsys translate_on
-
 wire \notQ~output_o ;
 wire \Q~output_o ;
 wire \Clock~input_o ;

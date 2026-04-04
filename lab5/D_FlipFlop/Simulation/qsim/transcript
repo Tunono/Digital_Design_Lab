@@ -21,12 +21,6 @@
 # Loading cycloneive_ver.cycloneive_lcell_comb
 # Loading work.D_FLIPFLOP_vlg_sample_tst
 # Loading work.D_FLIPFLOP_vlg_check_tst
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
-# Loading instances from D_FLIPFLOP_v.sdo
-# Loading timing data from D_FLIPFLOP_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /D_FLIPFLOP_vlg_vec_tst File: D_FLIPFLOP.vt
 # Simulation passed !
 # ** Note: $finish    : D_FLIPFLOP.vt(177)
 #    Time: 1 us  Iteration: 0  Instance: /D_FLIPFLOP_vlg_vec_tst/tb_out

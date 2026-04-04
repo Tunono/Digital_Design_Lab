@@ -1,6 +1,5 @@
 vendor_name = ModelSim
 source_file = 1, C:/ITI 1100/lab5/SR_Latch/SR_LATCH.bdf
-source_file = 1, C:/ITI 1100/lab5/SR_Latch/Simulation/Waveform.vwf
 source_file = 1, C:/ITI 1100/lab5/SR_Latch/db/SR_LATCH.cbx.xml
 design_name = SR_LATCH
 instance = comp, \Q~output , Q~output, SR_LATCH, 1

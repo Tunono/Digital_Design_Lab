@@ -1,5 +1,5 @@
 EDA Netlist Writer report for D_FLIPFLOP
-Tue Mar 31 10:42:53 2026
+Fri Apr 03 20:01:27 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Mar 31 10:42:52 2026 ;
+; EDA Netlist Writer Status ; Successful - Fri Apr 03 20:01:27 2026 ;
 ; Revision Name             ; D_FLIPFLOP                            ;
 ; Top-level Entity Name     ; D_FLIPFLOP                            ;
 ; Family                    ; Cyclone IV E                          ;
@@ -50,8 +50,7 @@ applicable agreement for further details.
 ; Option                                                                                            ; Setting                   ;
 +---------------------------------------------------------------------------------------------------+---------------------------+
 ; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate netlist for functional simulation only                                                   ; Off                       ;
-; Time scale                                                                                        ; 1 ps                      ;
+; Generate netlist for functional simulation only                                                   ; On                        ;
 ; Truncate long hierarchy paths                                                                     ; Off                       ;
 ; Map illegal HDL characters                                                                        ; Off                       ;
 ; Flatten buses into individual nodes                                                               ; Off                       ;
@@ -66,20 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                          ;
-+-------------------------------------------------------------------------------------+
-; Generated Files                                                                     ;
-+-------------------------------------------------------------------------------------+
-; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP_7_1200mv_85c_slow.vo     ;
-; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP_7_1200mv_0c_slow.vo      ;
-; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP_min_1200mv_0c_fast.vo    ;
-; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP.vo                       ;
-; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP_7_1200mv_85c_v_slow.sdo  ;
-; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP_7_1200mv_0c_v_slow.sdo   ;
-; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP_min_1200mv_0c_v_fast.sdo ;
-; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP_v.sdo                    ;
-+-------------------------------------------------------------------------------------+
++---------------------------------------------------------------+
+; Simulation Generated Files                                    ;
++---------------------------------------------------------------+
+; Generated Files                                               ;
++---------------------------------------------------------------+
+; C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/D_FLIPFLOP.vo ;
++---------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -88,20 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Mar 31 10:42:51 2026
-Info: Command: quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog D_FLIPFLOP -c D_FLIPFLOP
-Info (204019): Generated file D_FLIPFLOP_7_1200mv_85c_slow.vo in folder "C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file D_FLIPFLOP_7_1200mv_0c_slow.vo in folder "C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file D_FLIPFLOP_min_1200mv_0c_fast.vo in folder "C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/" for EDA simulation tool
+    Info: Processing started: Fri Apr 03 20:01:26 2026
+Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog D_FLIPFLOP -c D_FLIPFLOP
 Info (204019): Generated file D_FLIPFLOP.vo in folder "C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file D_FLIPFLOP_7_1200mv_85c_v_slow.sdo in folder "C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file D_FLIPFLOP_7_1200mv_0c_v_slow.sdo in folder "C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file D_FLIPFLOP_min_1200mv_0c_v_fast.sdo in folder "C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file D_FLIPFLOP_v.sdo in folder "C:/ITI 1100/lab5/D_FlipFlop/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4537 megabytes
-    Info: Processing ended: Tue Mar 31 10:42:53 2026
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Fri Apr 03 20:01:27 2026
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -8,7 +8,7 @@ Z1 !s100 =UkRbJNiLzng?:g8LkFXz3
 Z2 I?VQHFMTHiL_]b:>dQ]>d=2
 Z3 VloXg[?VjL6Y:DNVi:kbdY1
 Z4 dC:\ITI 1100\lab5\D_Latch\simulation\qsim
-Z5 w1774982471
+Z5 w1775270763
 Z6 8D_LATCH.vo
 Z7 FD_LATCH.vo
 L0 31
@@ -20,7 +20,7 @@ Z10 o-work work -O0
 Z11 n@d_@l@a@t@c@h
 !i10b 1
 !s85 0
-Z12 !s108 1774982472.753000
+Z12 !s108 1775270765.608000
 Z13 !s107 D_LATCH.vo|
 !s101 -O0
 vD_LATCH_vlg_check_tst
@@ -29,7 +29,7 @@ Z14 !s100 RN5gi?H^URm5b`]S_=jmn3
 Z15 IBXTSc20F=816z8__o4]?Y0
 Z16 Vkb8;?0H]FTU`BOoO383fz0
 R4
-Z17 w1774982470
+Z17 w1775270761
 Z18 8D_LATCH.vt
 Z19 FD_LATCH.vt
 L0 59
@@ -37,7 +37,7 @@ R8
 r1
 !s85 0
 31
-Z20 !s108 1774982472.885000
+Z20 !s108 1775270765.914000
 Z21 !s107 D_LATCH.vt|
 Z22 !s90 -work|work|D_LATCH.vt|
 !s101 -O0
@@ -65,14 +65,14 @@ R10
 Z27 n@d_@l@a@t@c@h_vlg_sample_tst
 vD_LATCH_vlg_vec_tst
 !i10b 1
-!s100 kjzJ00A]NDA0]HRP14cZ?3
-IHBmk<TH979M7RP21dKaB:3
-Z28 VIWb`b5iinKZ8SNl]DA1hJ0
+Z28 !s100 kjzJ00A]NDA0]HRP14cZ?3
+Z29 IHBmk<TH979M7RP21dKaB:3
+Z30 VIWb`b5iinKZ8SNl]DA1hJ0
 R4
 R17
 R18
 R19
-Z29 L0 181
+Z31 L0 181
 R8
 r1
 !s85 0
@@ -82,4 +82,4 @@ R21
 R22
 !s101 -O0
 R10
-Z30 n@d_@l@a@t@c@h_vlg_vec_tst
+Z32 n@d_@l@a@t@c@h_vlg_vec_tst

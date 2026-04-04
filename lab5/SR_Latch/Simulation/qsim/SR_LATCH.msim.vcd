@@ -3,7 +3,7 @@ $comment
 		vcd file SR_LATCH.msim.vcd -direction
 $end
 $date
-	Tue Mar 31 11:32:39 2026
+	Fri Apr 03 19:31:10 2026
 $end
 $version
 	ModelSim Version 10.1d
