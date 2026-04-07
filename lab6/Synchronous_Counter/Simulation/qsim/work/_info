@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ITI 1100\lab6\Synchronous_Counter\simulation\qsim
+vCounter
+Z1 Ine^N0l[4h?L?ZWBOK<STT0
+Z2 V`k[P[]NGDJ:L8ZHR2eOEo0
+Z3 dC:\ITI 1100\lab6\Synchronous_Counter\simulation\qsim
+Z4 w1775569259
+Z5 8Counter.vo
+Z6 FCounter.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Counter.vo|
+Z9 o-work work -O0
+Z10 n@counter
+!i10b 1
+Z11 !s100 Hn^`j;^fD7kTHccjfj0AW2
+!s85 0
+Z12 !s108 1775569259.447000
+Z13 !s107 Counter.vo|
+!s101 -O0
+vCounter_vlg_check_tst
+!i10b 1
+Z14 !s100 3_5L8?^lKd`S2XNI61>j=0
+Z15 IzJ0_56DcMg14z[7dWB=fU0
+Z16 VYH<PKU;b?6jMWSYTBdc=X2
+R3
+Z17 w1775569258
+Z18 8Counter.vt
+Z19 FCounter.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z20 !s108 1775569259.506000
+Z21 !s107 Counter.vt|
+Z22 !s90 -work|work|Counter.vt|
+!s101 -O0
+R9
+Z23 n@counter_vlg_check_tst
+vCounter_vlg_sample_tst
+!i10b 1
+Z24 !s100 jJkj;ZjK0KSC7aaJH9OdF2
+Z25 IERb8Q@4OVNR4m=dmgd<>E0
+Z26 VibD]f3m3j[kgj9gZ>0=V^0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@counter_vlg_sample_tst
+vCounter_vlg_vec_tst
+!i10b 1
+Z28 !s100 Kh7UJQR5UCRTTcaPhG8UW2
+Z29 ITz9dPg_9<aGRMCnS<U[@M2
+Z30 VNidC<l`I>J]F94C6X1Sf:2
+R3
+R17
+R18
+R19
+Z31 L0 233
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@counter_vlg_vec_tst

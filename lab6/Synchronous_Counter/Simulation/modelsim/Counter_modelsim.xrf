@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/ITI 1100/lab6/Synchronous_Counter/Counter.bdf
+source_file = 1, C:/ITI 1100/lab6/Synchronous_Counter/Simulation/Waveform.vwf
+source_file = 1, C:/ITI 1100/lab6/Synchronous_Counter/db/Counter.cbx.xml
+design_name = Counter
+instance = comp, \Q0~output , Q0~output, Counter, 1
+instance = comp, \Q1~output , Q1~output, Counter, 1
+instance = comp, \Q2~output , Q2~output, Counter, 1
+instance = comp, \Q3~output , Q3~output, Counter, 1
+instance = comp, \Clk~input , Clk~input, Counter, 1
+instance = comp, \inst1~0 , inst1~0, Counter, 1
+instance = comp, \inst3~0 , inst3~0, Counter, 1
+instance = comp, \inst~0 , inst~0, Counter, 1
+instance = comp, \inst2~feeder , inst2~feeder, Counter, 1
