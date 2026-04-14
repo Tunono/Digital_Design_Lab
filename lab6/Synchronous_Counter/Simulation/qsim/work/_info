@@ -4,10 +4,10 @@ K3
 cModel Technology
 Z0 dC:\ITI 1100\lab6\Synchronous_Counter\simulation\qsim
 vCounter
-Z1 Ine^N0l[4h?L?ZWBOK<STT0
+Z1 I6hF8^aiUh0[TihoA9bZAF2
 Z2 V`k[P[]NGDJ:L8ZHR2eOEo0
 Z3 dC:\ITI 1100\lab6\Synchronous_Counter\simulation\qsim
-Z4 w1775569259
+Z4 w1775678950
 Z5 8Counter.vo
 Z6 FCounter.vo
 L0 31
@@ -18,9 +18,9 @@ Z8 !s90 -work|work|Counter.vo|
 Z9 o-work work -O0
 Z10 n@counter
 !i10b 1
-Z11 !s100 Hn^`j;^fD7kTHccjfj0AW2
+Z11 !s100 @ZUoLZ<U9XYSzVF=FjhFO0
 !s85 0
-Z12 !s108 1775569259.447000
+Z12 !s108 1775678951.909000
 Z13 !s107 Counter.vo|
 !s101 -O0
 vCounter_vlg_check_tst
@@ -29,7 +29,7 @@ Z14 !s100 3_5L8?^lKd`S2XNI61>j=0
 Z15 IzJ0_56DcMg14z[7dWB=fU0
 Z16 VYH<PKU;b?6jMWSYTBdc=X2
 R3
-Z17 w1775569258
+Z17 w1775678949
 Z18 8Counter.vt
 Z19 FCounter.vt
 L0 57
@@ -37,7 +37,7 @@ R7
 r1
 !s85 0
 31
-Z20 !s108 1775569259.506000
+Z20 !s108 1775678952.018000
 Z21 !s107 Counter.vt|
 Z22 !s90 -work|work|Counter.vt|
 !s101 -O0
